@@ -111,7 +111,6 @@ For Each ws In Worksheets
         ws.Range("O4").Value = "Greatest Total Volume"
         ws.Range("P1").Value = "Ticker"
         ws.Range("Q1").Value = "Value"
-        ws.Range("O1:Q4").Font.Bold = True
         ws.Columns("O:Q").AutoFit
     Next
 End Sub
